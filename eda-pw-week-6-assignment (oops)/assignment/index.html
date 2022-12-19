@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "utf-8">
+    <script src = "scripts/jquery-3.6.2.min.js" charset = "utf-8"></script>
+    <script src = "scripts/client.js" charset = "utf-8"></script>
+    <link rel = "stylesheet" href = "./styles/style.css">
+    <title>Week 6 Tier 1 Assignment</title>
+  </head>
+  <body>
+    <div class = "header">
+      <h1>Week 6 Tier 1 Assignment</h1>
+      <h2>My Garage</h2>
+    </div>
+    <div class = "main">
+      <form id = "addCarForm">
+        <h3>Add a New Vehicle:</h3>
+        <input type = "number" placeholder = "Year" id = "yearInput" required/>
+      
+        <input type = "text" placeholder = "Make" id = "makeInput" required/>
+      
+        <input type = "text" placeholder = "Model" id = "modelInput" required/>
+      
+        <button type = "submit" id = "addCarButton">Add Car</button>
+      </form>
+    <table>
+      <thead>
+        <tr>
+          <th>Year</th>
+          <th>Make</th>
+          <th>Model</th>
+        </tr>
+      </thead>
+      <tbody id = "tableBody"></tbody>
+    </table>
+    </div>
+  </body>
+</html>
